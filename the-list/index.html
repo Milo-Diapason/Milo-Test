@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>The List by Diapason Digital</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+
+<style>
+/*
+ *
+ *  THE LIST
+ *  v0.3
+ *  by miloneri
+ * 	@diapason.digital
+ *
+*/
+	
+	
+/* TYPOGRAPHY */
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('font/SourceCodePro-ExtraLight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('font/Bebas-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+                                        html {font-size:  7px;}
+@media screen and (min-width: 768px) {  html {font-size:  8px;}  }
+@media screen and (min-width:1280px) {  html {font-size:  9px;}  }
+@media screen and (min-width:1440px) {  html {font-size: 10px;}  }
+	
+body {font-size: 2.4rem; font-family: 'Source Code Pro', monospace; font-weight: 100; color: #000; margin: 2.4rem;}
+
+h1,h2,h3,
+h4,h5,h6  {font-family: 'Bebas', sans-serif; font-weight: 400; line-height: 0.9em; margin: 0.3em 0;}
+h1, .h1   {font-size: 12.0rem; text-transform: uppercase;}
+h2, .h2   {font-size:  6.0rem;}
+h3, .h3   {font-size:  4.8rem;}
+h4, .h4   {font-size:  3.6rem;}
+h5, .h5   {font-size:  2.4rem;}
+h6, .h6   {font-size:  1.8rem;}
+	
+p      {line-height: 1.8em; max-width: 40em;}	
+	
+span   {font-size: 1.8rem;}
+	
+	
+/* LAYOUT */
+
+@media screen and (min-width: 768px) {  .container {margin: 0 auto 0 10vw; max-width: 85vw;}  }
+article    {margin: 14.4rem auto;}	
+
+	
+/* SPECIFIC ELEMENTS */
+	
+a         {color: inherit; line-height: inherit; background-color: transparent; text-transform: uppercase; text-decoration: none; transition: all .1s ease-out;}
+a:hover,
+a:focus   {color: #fff; background-color: #000;}
+
+p a       {border-bottom: solid 1px #000;}
+	
+hgroup h1 {font-size: 3.6rem;}
+hgroup h2 {font-size: 2.4rem;}
+
+@media screen and (max-width: 768px) {  article .h1 {font-size:  6.0rem;}  }
+
+article p:first-child::before {content: '⸻ ';}
+.category::before {content: '⸻ ';}
+	
+</style>
+</head>
+
+<body>
+
+	<header id="masthead">
+		<hgroup>
+			<h1><a href="https://diapason.digital/the-list">THE LIST</a></h1>
+			<h2>inspiration & research links curated by diapason.digital</h2>
+		</hgroup>
+		<div class="container">
+			<nav class="main-navigation">
+				<ul></ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<section class="main">
+			<div class="container">
+				<article>
+					<span class="meta date">2020.6.9</span>
+					<span class="meta category">Fonts</span>
+					<h3 class="h1"><a href="https://lineto.com/typefaces">Lineto.com</a></h3>
+					<div class="notes">
+						<p>
+							Foundry svizzera, vende i prodotti NORM e ha all'attivo font come Akkurat, Curier e Circular. Il sito è bellissimo. 
+						</p>
+					</div>
+					<span class="meta source">Approfondimento</span>
+				</article>
+				<article>
+					<span class="meta date">2020.5.26</span>
+					<span class="meta category">Fonts</span>
+					<h3 class="h1"><a href="https://vanschneider.com/the-best-totally-free-web-fonts-typefaces">The best totally free web fonts & typefaces</a></h3>
+					<div class="notes">
+						<p>
+							Lista di font gratuiti. Da notare la foundry 'Atipo' che offre licenze anche a 10$. Il blog DESK è curato da uno dei soci o partner di <a href="https://www.semplice.com">semplice.com</a>
+						</p>
+					</div>
+					<span class="meta source">Approfondimento</span>
+				</article>
+				<article>
+					<span class="meta date">2020.4.10</span>
+					<span class="meta category">CSS</span>
+					<h3 class="h1"><a href="https://andybrewer.github.io/mvp/">MVP.css</a></h3>
+					<div class="notes">
+						<p>
+							File CSS con stili base per tutti i tag HTML. Customizzabile con poche variabili. Interessante come base per progetti rapidi che richiedono proto funzionale.
+						</p>
+					</div>
+					<span class="meta source">Codrops</span>
+				</article>
+				<article>
+					<span class="meta date">2020.3.4</span>
+					<span class="meta category">Foundry</span>
+					<h3 class="h1"><a href="https://www.colophon-foundry.org/typefaces/">colophon-foundry.org</a></h3>
+					<div class="notes">
+						<p>
+							Foundry moderna. Prodotti sempre di qualità a prezzi molto convenienti. Sito curatissimo, interessanti i filtri.
+						</p>
+					</div>
+					<span class="meta source">Approfondimento</span>
+				</article>
+				<article>
+					<span class="meta date">2020.3.4</span>
+					<span class="meta category">Themes</span>
+					<h3 class="h1"><a href="https://sixnfive.com/">sixnfive.com</a></h3>
+					<div class="notes">
+						<p>
+							Studio di imaging digitale, clienti prestigiosi. Molto interessanti le transizioni automatiche che ti riportano sempre sulla home. È wordpress ma non si evince il tema.
+						</p>
+					</div>
+					<span class="meta source">Codrops</span>
+				</article>
+				<article>
+					<span class="meta date">2020.1.10</span>
+					<span class="meta category">Book</span>
+					<h3 class="h1"><a href="https://resilientwebdesign.com/">resilientwebdesign.com</a></h3>
+					<div class="notes">
+						<p>
+							Tipografia scalabile aggiornata con calc() e quasi senza media queries, un approccio interessante. 
+						</p>
+					</div>
+					<span class="meta source">Sidebar</span>
+				</article>
+				<article>
+					<span class="meta date">2019.12.19</span>
+					<span class="meta category">Easter Egg</span>
+					<h3 class="h1"><a href="http://www.benmingo.com/">benmingo.com</a></h3>
+					<div class="notes">
+						<p>
+							Easter egg sofisticato...
+						</p>
+					</div>
+					<span class="meta source">Sidebar</span>
+				</article>
+				<article>
+					<span class="meta date">2019.12.18</span>
+					<span class="meta category">Themes</span>
+					<h3 class="h1"><a href="https://www.semplice.com/">semplice.com</a></h3>
+					<div class="notes">
+						<p>
+							"Basato su Wordpress" ma potrebbe essere <em>più</em> di un tema. Probabilmente questo è uno dei sistemi usati per creare siti "stile 2019".
+						</p>
+					</div>
+					<span class="meta source">Sidebar</span>
+				</article>
+				<article>
+					<span class="meta date">2019.12.18</span>
+					<span class="meta category">Themes</span>
+					<h3 class="h1"><a href="http://preview.themeforest.net/item/grenada-creative-ajax-portfolio-showcase-slider-theme/full_screen_preview/22712618">Grenada</a></h3>
+					<div class="notes">
+						<p>
+							Tema WP con effetti moderni. Potrebbe essere una base interessante.
+						</p>
+					</div>
+					<span class="meta source">Sidebar</span>
+				</article>
+				<article>
+					<span class="meta date">2019.12.17</span>
+					<span class="meta category">Landing</span>
+					<h3 class="h1"><a href="https://loopearplugs.jp/">loopearplugs.jp</a></h3>
+					<div class="notes">
+						<p>
+							Mix di griglia 'aperta' con elementi full-width, design pulito, footer 'scomposto' che crea effetto sovrapposizione onscroll.
+						</p>
+					</div>
+					<span class="meta source">awwwards</span>
+				</article>
+				<article>
+					<span class="meta date">2019.12.4</span>
+					<span class="meta category">Portfolio</span>
+					<h3 class="h1"><a href="https://www.gothamsiti.it/">gothamsiti.it</a></h3>
+					<div class="notes">
+						<p>
+							Moderno, custom, "facile" da smontare. Sfondo WEBGL ma pagine 'vere'.
+						</p>
+					</div>
+					<span class="meta source">awwwards</span>
+				</article>
+				<article>
+					<span class="meta date">2019.12.4</span>
+					<span class="meta category">Info</span>
+					<h3 class="h1"><a href="https://whereispoland.com/">whereispoland.com</a></h3>
+					<div class="notes">
+						<p>
+							Storytelling avanzato, parallax fatto bene, scroll orizzontale con drag. Molto piacevole, copy non male e fa venire voglia di scrollare.
+						</p>
+					</div>
+					<span class="meta source">awwwards</span>
+				</article>
+				
+				<article>
+					<span class="meta date">2019.12.4</span>
+					<span class="meta category">Portfolio</span>
+					<h3 class="h1"><a href="https://heckhouse.com/">heckhouse.com</a></h3>
+					<div class="notes">
+						<p>
+							Graficamente ineccepibile, fa venire voglia di vedere altro, senza fronzoli, contenuto di qualità. Belle case di UI Design.
+						</p>
+					</div>
+					<span class="meta source">sidebar</span>
+				</article>
+	
+			</div>
+	</section>
+
+	
+	<footer>
+		<span>THE LIST &copy; 2019 - 2020 by <a href="https://diapason.digital" title="Diapason Digital - User eXperience, per davvero" rel="external">Diapason Digital</a>. Questa pagina non fa uso di sistemi di tracciamento e non installa alcun cookie.</span>
+	</footer>
+
+
+</body>
+</html>
